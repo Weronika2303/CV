@@ -1,0 +1,247 @@
+body {
+	background: #f5f7fa;
+	font-family: 'Lato', sans-serif;
+}
+
+.gradient {
+	background-image: linear-gradient(to bottom right, #8c52ff, #5ce1e6);
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: row-reverse;
+	width: 1200px;
+	justify-content: center;
+	margin: 0 auto;
+	background: #ffffff;
+	box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.1);
+}
+
+aside {
+	width: 400px;
+}
+
+.circle-image {
+	width: 300px; /* Dostosuj rozmiar koła do swoich preferencji */
+	height: 300px;
+	border-radius: 50%; /* Ustawienie zaokrąglonych krawędzi, aby utworzyć koło */
+	overflow: hidden; /* Ukrycie części obrazu, która wykracza poza granice koła */
+}
+
+.circle-image img {
+	width: 100%; /* Dostosowanie rozmiaru obrazu do wymiarów div.circle-image */
+	height: 100%;
+	object-fit: cover; /* Zapewnienie, że obraz zostanie przycięty do pełnego wykorzystania miejsca wewnątrz koła */
+	object-position: center; /* Wyśrodkowanie obrazu wewnątrz koła */
+	mask-image: radial-gradient(
+		circle,
+		transparent 50%,
+		white 50%
+	); /* Zastosowanie maski, aby zmienić kształt obrazu na koło */
+	mask-mode: alpha; /* Ustawienie trybu maski na alpha, aby przeźroczystość była uwzględniana */
+}
+
+.photo-box {
+	display: flex;
+	justify-content: center;
+	margin-top: 50px;
+}
+
+.header-secondary {
+	color: #ffffff;
+	font-size: 30px;
+}
+
+.contact-links {
+	color: #ffffff;
+	font-size: 18px;
+	line-height: 24px;
+	text-decoration: none;
+}
+
+.contact-icon {
+	width: 25px;
+	height: 25px;
+}
+
+.icons-center {
+	vertical-align: middle;
+}
+
+.socials {
+	margin-top: -40px;
+	margin-bottom: 70px;
+	width: 25px;
+	height: 25px;
+	display: flex;
+}
+
+.linkedin {
+	margin-right: 20px;
+}
+
+.phone {
+	color: red;
+}
+
+.list-secondary {
+	color: #fb6d3a;
+	font-size: 18px;
+	line-height: 24px;
+	margin-left: 0px;
+	padding: 0px;
+	list-style-position: inside;
+}
+
+.list-secondary-item {
+	color: #ffffff;
+}
+
+li {
+	margin-bottom: 10px;
+}
+
+.contact-block {
+	margin-top: 60px;
+	margin-left: 40px;
+}
+
+.tech-skills-block {
+	margin-top: 60px;
+	margin-left: 40px;
+}
+
+.soft-skills-block {
+	margin-top: 60px;
+	margin-left: 40px;
+}
+
+.languages {
+	margin-top: 60px;
+	margin-left: 40px;
+}
+
+.lg {
+	color: white;
+	font-size: 18px;
+	line-height: 24px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+.school-terms {
+	color: white;
+	font-size: 18px;
+	margin-bottom: 10px;
+	line-height: 24px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+.universitet {
+	color: white;
+	font-size: 20px;
+	line-height: 24px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+main {
+	padding: 102px 88px 102px 88px;
+}
+
+.main-description {
+	width: 700px;
+	letter-spacing: 2px;
+}
+
+.job-tittle {
+	font-weight: 700;
+	font-size: 32px;
+	line-height: 17px;
+}
+
+h1 {
+	font-weight: 700;
+	font-size: 55px;
+	line-height: 55px;
+}
+
+.description {
+	color: #595959;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 40px;
+	letter-spacing: 0px;
+}
+
+.projects {
+	width: 700px;
+}
+
+.header-primary {
+	font-weight: 700;
+	font-size: 30px;
+	line-height: 27px;
+	margin-bottom: 12px;
+}
+
+.list-primary {
+	color: #000000;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 24px;
+	padding-left: 0px;
+	list-style-position: inside;
+	margin-bottom: 51px;
+}
+
+.list-primary-item {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #595959;
+	text-decoration: none;
+}
+
+.job-name {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 20px;
+}
+
+.highlight {
+	color: #fb6d3a;
+}
+
+.job-terms {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 15px;
+	color: #a8a8a8;
+}
+
+.job-description {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #595959;
+	padding-left: 0px;
+	list-style-position: inside;
+	margin-bottom: 43px;
+}
+
+.certificates {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24px;
+	color: #595959;
+	padding-left: 0px;
+	list-style-position: inside;
+	margin-bottom: 43px;
+}
+
+.text-indent {
+	margin-left: 25px;
+}
